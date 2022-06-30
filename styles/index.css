@@ -1,6 +1,7 @@
 body {
   max-width: 1440px;
   background: #f3f3f3;
+  box-sizing: border-box;
 }
 
 .sidebar-nav {
@@ -9,13 +10,11 @@ body {
   flex-direction: column;
   align-items: flex-start;
   gap: 70px;
-  position: fixed; /*не получается сделать position sticky*/
+  position: fixed; 
   width: 385px;
   height: 462px;
   left: 120px;
   top: 150px;
- 
-  
 }
 
 .sidebar-title {
@@ -37,8 +36,9 @@ body {
   display: flex;
   flex-direction: row; 
   position: fixed;  
+  background-color: #f3f3f3;
+  width: 1440px;
 }
-
 
 .nav-title1 {
   padding-left: 120px;
@@ -47,25 +47,29 @@ body {
   letter-spacing: 0.04em;
   font-size: 20px;
   color: black;
-    
 }
-.nav-title2 {
+
+.nav-title2,
+.nav-title4,
+.nav-title5 {
   padding-left: 30px;
   font-family: 'Francois One', sans-serif;
   color: black;
   text-decoration: none;
   letter-spacing: 0.04em;
-   
 }
 
 .nav-title3 {
   padding-left: 690px;
-  padding-right: 120px;
+  padding-right: 44pxpx;
   font-family: 'Bebas Neue', cursive;
   color: black;
   font-size: 60px;
-  text-decoration: none;
-    
+  text-decoration: none;  
+}
+
+.nav-title4 {
+  padding-right: 30px;
 }
 
 .chapter-1,
@@ -74,12 +78,17 @@ body {
 .chapter-4 {
   padding-left: 535px;
   width: 785px;
+  padding-top: 70px;
+}
+
+.chapter-1 {
+  padding-top: 70px;
 }
 
 .background-picture {
   position: fixed;
   right: 0px;
-  top: 0px;
+  top: 76px;
   z-index: -1;
 }
 
