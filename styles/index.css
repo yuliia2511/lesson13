@@ -1,0 +1,141 @@
+body {
+  max-width: 1440px;
+  background: #f3f3f3;
+  box-sizing: border-box;
+}
+
+.sidebar-nav {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 70px;
+  position: fixed; 
+  width: 385px;
+  height: 462px;
+  left: 120px;
+  top: 150px;
+}
+
+.sidebar-title {
+  font-family: 'Francois One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  color: black;
+  text-decoration: none;
+  border: 1px solid;
+  width: 367px;
+  border-top: #f3f3f3;
+  border-right: #f3f3f3;
+  border-left: #f3f3f3;
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: row; 
+  position: fixed;  
+  background-color: #f3f3f3;
+  width: 1440px;
+}
+
+.nav-title1 {
+  padding-left: 120px;
+  font-family: 'Bungee Outline', cursive;
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  font-size: 20px;
+  color: black;
+}
+
+.nav-title2,
+.nav-title4,
+.nav-title5 {
+  padding-left: 30px;
+  font-family: 'Francois One', sans-serif;
+  color: black;
+  text-decoration: none;
+  letter-spacing: 0.04em;
+}
+
+.nav-title3 {
+  padding-left: 690px;
+  padding-right: 44pxpx;
+  font-family: 'Bebas Neue', cursive;
+  color: black;
+  font-size: 60px;
+  text-decoration: none;  
+}
+
+.nav-title4 {
+  padding-right: 30px;
+}
+
+.chapter-1,
+.chapter-2,
+.chapter-3,
+.chapter-4 {
+  padding-left: 535px;
+  width: 785px;
+  padding-top: 70px;
+}
+
+.chapter-1 {
+  padding-top: 70px;
+}
+
+.background-picture {
+  position: fixed;
+  right: 0px;
+  top: 76px;
+  z-index: -1;
+}
+
+.chapter-name {
+  font-family: 'Francois One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.index {
+  font-family: 'Farro', sans-serif;
+  font-family: 'Farro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.intro-par,
+.core-par,
+.react-par,
+.input-par {
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 50px;
+  width: 1200px;
+
+}
+
+/*Text Decoration*/
+.decor1 {
+  text-decoration-line: underline;
+
+}
+
+.decor2 {
+  font-style: oblique;
+}
+
+.decor3 {
+  background-color: lightgrey;
+}
